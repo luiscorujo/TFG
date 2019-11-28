@@ -2,6 +2,10 @@
 
 This is a python trading algorithm for the FOREX market.
 
+## Note
+
+- We no longer support the database with the historic data, in case that you want to run the algorithm using historic data you should replace the database connection address with your own database address.
+
 
 ## Installing Python and Pip
 
