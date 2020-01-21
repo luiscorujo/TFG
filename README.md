@@ -86,44 +86,6 @@ The output should be:
     
     pip 19.1.1 from /Users/luis/virtualenvironment/interface/lib/python3.7/site-packages/pip (python 3.7)
     
-
-    
-
-### UBUNTU 16.10 OR NEWER 16.10 or newer
-
-- **Install Python**
-
-Start with:
-
-    $ sudo apt-get update
-    $ sudo apt-get install python3.6
-    
-You can check if the installation worked:
-    
-    $ python3 --version
-    
-The output should be:
-    
-    Python 3.7.2
-
-
-- **Install Pip**
-
-Start with:
-   
-    $ sudo apt update 
-    
-    $ sudo apt install python3-pip
-    
-Once the installation is completed, verify the installation by checking the pip version:
-    
-    $ pip3 --version
-    
-The version number may vary, but it will look something like this:
-    
-    pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
-    
-    
     
 ## Requirements
 
@@ -144,20 +106,6 @@ Create a virtual environment:
     $ virtualenv my_venv
     
     $ my_venv\Scripts\activate
-
-**UBUNTU**
-
-    $ sudo apt-get update
-    
-    $ sudo pip3 install virtualenv 
-    
-    $ virtualenv venv
-    
-    $ source venv/bin/activate
-
-Once you have downloaded the repository, and with python and pip installed, go the the repository folder and install the requirements:
-
-    $ pip install requirements.txt    
 
 
 ## Run 
