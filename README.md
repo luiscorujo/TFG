@@ -109,7 +109,7 @@ Create a virtual environment:
 
 Once you have downloaded the repository, and with python and pip installed, go the the repository folder and install the requirements:
 
-    $ pip install requirements.txt    
+    $ pip install -r requirements.txt    
 
 ## Run 
 
